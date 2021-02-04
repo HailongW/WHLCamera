@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9386EE28DA9D14F3A3F57E9 /* libPods-WHLCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C008DAF4BBF2D7DB7D50B2C2 /* libPods-WHLCamera.a */; };
+		BCC383D525C0602B00229245 /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC383D425C0602B00229245 /* StatusView.m */; };
+		BCC3840C25C150E000229245 /* CaptureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC3840B25C150E000229245 /* CaptureButton.m */; };
+		BCC3841125C1860B00229245 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC3841025C1860B00229245 /* CoreMedia.framework */; };
+		BCC3841325C1861500229245 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC3841225C1861500229245 /* AVFoundation.framework */; };
+		BCC3841825C1862B00229245 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC3841725C1862B00229245 /* CoreGraphics.framework */; };
+		BCC3841D25C1863B00229245 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC3841C25C1863B00229245 /* UIKit.framework */; };
+		BCC3842225C1865700229245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC3842125C1865700229245 /* Foundation.framework */; };
+		BCC3842825C2811900229245 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC3842725C2811900229245 /* UIView+Additions.m */; };
+		BCC3843325CAFD9100229245 /* NSFileManager+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC3843225CAFD9100229245 /* NSFileManager+Additions.m */; };
+		BCF6C7C425C02FD5008AA01F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C7C325C02FD5008AA01F /* AppDelegate.m */; };
+		BCF6C7C725C02FD5008AA01F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C7C625C02FD5008AA01F /* SceneDelegate.m */; };
+		BCF6C7CA25C02FD5008AA01F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C7C925C02FD5008AA01F /* ViewController.m */; };
+		BCF6C7CD25C02FD5008AA01F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF6C7CB25C02FD5008AA01F /* Main.storyboard */; };
+		BCF6C7CF25C02FE0008AA01F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF6C7CE25C02FE0008AA01F /* Assets.xcassets */; };
+		BCF6C7D225C02FE0008AA01F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF6C7D025C02FE0008AA01F /* LaunchScreen.storyboard */; };
+		BCF6C7D525C02FE0008AA01F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C7D425C02FE0008AA01F /* main.m */; };
+		BCF6C7DF25C02FE1008AA01F /* WHLCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C7DE25C02FE1008AA01F /* WHLCameraTests.m */; };
+		BCF6C7EA25C02FE1008AA01F /* WHLCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C7E925C02FE1008AA01F /* WHLCameraUITests.m */; };
+		BCF6C7FD25C03196008AA01F /* CameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C7FC25C03196008AA01F /* CameraController.m */; };
+		BCF6C81225C039A3008AA01F /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C81125C039A3008AA01F /* PreviewView.m */; };
+		BCF6C81E25C039DB008AA01F /* OverLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C81D25C039DB008AA01F /* OverLayerView.m */; };
+		BCF6C82425C03AE9008AA01F /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C82325C03AE9008AA01F /* CameraView.m */; };
+		BCF6C82A25C03AFE008AA01F /* CameraModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C82925C03AFE008AA01F /* CameraModeView.m */; };
+		BCF6C83025C03B1B008AA01F /* FlashControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6C82F25C03B1B008AA01F /* FlashControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF6C7DB25C02FE1008AA01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF6C7B725C02FD5008AA01F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF6C7BE25C02FD5008AA01F;
+			remoteInfo = WHLCamera;
+		};
+		BCF6C7E625C02FE1008AA01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF6C7B725C02FD5008AA01F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF6C7BE25C02FD5008AA01F;
+			remoteInfo = WHLCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48397BBAF7A248FAEF8B4A83 /* Pods-WHLCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHLCamera.debug.xcconfig"; path = "Target Support Files/Pods-WHLCamera/Pods-WHLCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		575B8559CB20AC686239F6F2 /* Pods-WHLCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHLCamera.release.xcconfig"; path = "Target Support Files/Pods-WHLCamera/Pods-WHLCamera.release.xcconfig"; sourceTree = "<group>"; };
+		BCC383D325C0602B00229245 /* StatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
+		BCC383D425C0602B00229245 /* StatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
+		BCC383E825C10AB800229245 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BCC3840A25C150E000229245 /* CaptureButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureButton.h; sourceTree = "<group>"; };
+		BCC3840B25C150E000229245 /* CaptureButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureButton.m; sourceTree = "<group>"; };
+		BCC3841025C1860B00229245 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BCC3841225C1861500229245 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BCC3841725C1862B00229245 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCC3841C25C1863B00229245 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCC3842125C1865700229245 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCC3842625C2811900229245 /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		BCC3842725C2811900229245 /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		BCC3843125CAFD9100229245 /* NSFileManager+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Additions.h"; sourceTree = "<group>"; };
+		BCC3843225CAFD9100229245 /* NSFileManager+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Additions.m"; sourceTree = "<group>"; };
+		BCF6C7BF25C02FD5008AA01F /* WHLCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHLCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF6C7C225C02FD5008AA01F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCF6C7C325C02FD5008AA01F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCF6C7C525C02FD5008AA01F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BCF6C7C625C02FD5008AA01F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BCF6C7C825C02FD5008AA01F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCF6C7C925C02FD5008AA01F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCF6C7CC25C02FD5008AA01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCF6C7CE25C02FE0008AA01F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF6C7D125C02FE0008AA01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF6C7D325C02FE0008AA01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF6C7D425C02FE0008AA01F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF6C7DA25C02FE1008AA01F /* WHLCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHLCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF6C7DE25C02FE1008AA01F /* WHLCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHLCameraTests.m; sourceTree = "<group>"; };
+		BCF6C7E025C02FE1008AA01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF6C7E525C02FE1008AA01F /* WHLCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHLCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF6C7E925C02FE1008AA01F /* WHLCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHLCameraUITests.m; sourceTree = "<group>"; };
+		BCF6C7EB25C02FE1008AA01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF6C7FB25C03196008AA01F /* CameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
+		BCF6C7FC25C03196008AA01F /* CameraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraController.m; sourceTree = "<group>"; };
+		BCF6C81025C039A3008AA01F /* PreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewView.h; sourceTree = "<group>"; };
+		BCF6C81125C039A3008AA01F /* PreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewView.m; sourceTree = "<group>"; };
+		BCF6C81C25C039DB008AA01F /* OverLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverLayerView.h; sourceTree = "<group>"; };
+		BCF6C81D25C039DB008AA01F /* OverLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverLayerView.m; sourceTree = "<group>"; };
+		BCF6C82225C03AE9008AA01F /* CameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraView.h; sourceTree = "<group>"; };
+		BCF6C82325C03AE9008AA01F /* CameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraView.m; sourceTree = "<group>"; };
+		BCF6C82825C03AFE008AA01F /* CameraModeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraModeView.h; sourceTree = "<group>"; };
+		BCF6C82925C03AFE008AA01F /* CameraModeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraModeView.m; sourceTree = "<group>"; };
+		BCF6C82E25C03B1B008AA01F /* FlashControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashControl.h; sourceTree = "<group>"; };
+		BCF6C82F25C03B1B008AA01F /* FlashControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashControl.m; sourceTree = "<group>"; };
+		C008DAF4BBF2D7DB7D50B2C2 /* libPods-WHLCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WHLCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF6C7BC25C02FD5008AA01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC3842225C1865700229245 /* Foundation.framework in Frameworks */,
+				BCC3841D25C1863B00229245 /* UIKit.framework in Frameworks */,
+				BCC3841825C1862B00229245 /* CoreGraphics.framework in Frameworks */,
+				BCC3841325C1861500229245 /* AVFoundation.framework in Frameworks */,
+				BCC3841125C1860B00229245 /* CoreMedia.framework in Frameworks */,
+				A9386EE28DA9D14F3A3F57E9 /* libPods-WHLCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF6C7D725C02FE1008AA01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF6C7E225C02FE1008AA01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A04A3939CC2D5CA1D6D282E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3842125C1865700229245 /* Foundation.framework */,
+				BCC3841C25C1863B00229245 /* UIKit.framework */,
+				BCC3841725C1862B00229245 /* CoreGraphics.framework */,
+				BCC3841225C1861500229245 /* AVFoundation.framework */,
+				BCC3841025C1860B00229245 /* CoreMedia.framework */,
+				C008DAF4BBF2D7DB7D50B2C2 /* libPods-WHLCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF6C7B625C02FD5008AA01F = {
+			isa = PBXGroup;
+			children = (
+				BCF6C7C125C02FD5008AA01F /* WHLCamera */,
+				BCF6C7DD25C02FE1008AA01F /* WHLCameraTests */,
+				BCF6C7E825C02FE1008AA01F /* WHLCameraUITests */,
+				BCF6C7C025C02FD5008AA01F /* Products */,
+				D8AA20937E9E45AF793808E8 /* Pods */,
+				A04A3939CC2D5CA1D6D282E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF6C7C025C02FD5008AA01F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF6C7BF25C02FD5008AA01F /* WHLCamera.app */,
+				BCF6C7DA25C02FE1008AA01F /* WHLCameraTests.xctest */,
+				BCF6C7E525C02FE1008AA01F /* WHLCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF6C7C125C02FD5008AA01F /* WHLCamera */ = {
+			isa = PBXGroup;
+			children = (
+				BCF6C80C25C031C7008AA01F /* Categories */,
+				BCF6C80B25C031C0008AA01F /* Modes */,
+				BCF6C80A25C031B3008AA01F /* Views */,
+				BCF6C7FA25C03174008AA01F /* Controllers */,
+				BCF6C7C225C02FD5008AA01F /* AppDelegate.h */,
+				BCF6C7C325C02FD5008AA01F /* AppDelegate.m */,
+				BCF6C7C525C02FD5008AA01F /* SceneDelegate.h */,
+				BCF6C7C625C02FD5008AA01F /* SceneDelegate.m */,
+				BCF6C7CB25C02FD5008AA01F /* Main.storyboard */,
+				BCF6C7CE25C02FE0008AA01F /* Assets.xcassets */,
+				BCF6C7D025C02FE0008AA01F /* LaunchScreen.storyboard */,
+				BCF6C7D325C02FE0008AA01F /* Info.plist */,
+				BCF6C7D425C02FE0008AA01F /* main.m */,
+				BCC383E825C10AB800229245 /* PrefixHeader.pch */,
+			);
+			path = WHLCamera;
+			sourceTree = "<group>";
+		};
+		BCF6C7DD25C02FE1008AA01F /* WHLCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF6C7DE25C02FE1008AA01F /* WHLCameraTests.m */,
+				BCF6C7E025C02FE1008AA01F /* Info.plist */,
+			);
+			path = WHLCameraTests;
+			sourceTree = "<group>";
+		};
+		BCF6C7E825C02FE1008AA01F /* WHLCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF6C7E925C02FE1008AA01F /* WHLCameraUITests.m */,
+				BCF6C7EB25C02FE1008AA01F /* Info.plist */,
+			);
+			path = WHLCameraUITests;
+			sourceTree = "<group>";
+		};
+		BCF6C7FA25C03174008AA01F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCF6C7C825C02FD5008AA01F /* ViewController.h */,
+				BCF6C7C925C02FD5008AA01F /* ViewController.m */,
+				BCF6C7FB25C03196008AA01F /* CameraController.h */,
+				BCF6C7FC25C03196008AA01F /* CameraController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCF6C80A25C031B3008AA01F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCF6C81025C039A3008AA01F /* PreviewView.h */,
+				BCF6C81125C039A3008AA01F /* PreviewView.m */,
+				BCF6C81C25C039DB008AA01F /* OverLayerView.h */,
+				BCF6C81D25C039DB008AA01F /* OverLayerView.m */,
+				BCF6C82225C03AE9008AA01F /* CameraView.h */,
+				BCF6C82325C03AE9008AA01F /* CameraView.m */,
+				BCF6C82825C03AFE008AA01F /* CameraModeView.h */,
+				BCF6C82925C03AFE008AA01F /* CameraModeView.m */,
+				BCF6C82E25C03B1B008AA01F /* FlashControl.h */,
+				BCF6C82F25C03B1B008AA01F /* FlashControl.m */,
+				BCC383D325C0602B00229245 /* StatusView.h */,
+				BCC383D425C0602B00229245 /* StatusView.m */,
+				BCC3840A25C150E000229245 /* CaptureButton.h */,
+				BCC3840B25C150E000229245 /* CaptureButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCF6C80B25C031C0008AA01F /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		BCF6C80C25C031C7008AA01F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3842625C2811900229245 /* UIView+Additions.h */,
+				BCC3842725C2811900229245 /* UIView+Additions.m */,
+				BCC3843125CAFD9100229245 /* NSFileManager+Additions.h */,
+				BCC3843225CAFD9100229245 /* NSFileManager+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D8AA20937E9E45AF793808E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48397BBAF7A248FAEF8B4A83 /* Pods-WHLCamera.debug.xcconfig */,
+				575B8559CB20AC686239F6F2 /* Pods-WHLCamera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF6C7BE25C02FD5008AA01F /* WHLCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF6C7EE25C02FE1008AA01F /* Build configuration list for PBXNativeTarget "WHLCamera" */;
+			buildPhases = (
+				648AE4ADD565C0E5B12BDD9E /* [CP] Check Pods Manifest.lock */,
+				BCF6C7BB25C02FD5008AA01F /* Sources */,
+				BCF6C7BC25C02FD5008AA01F /* Frameworks */,
+				BCF6C7BD25C02FD5008AA01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHLCamera;
+			productName = WHLCamera;
+			productReference = BCF6C7BF25C02FD5008AA01F /* WHLCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF6C7D925C02FE1008AA01F /* WHLCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF6C7F125C02FE1008AA01F /* Build configuration list for PBXNativeTarget "WHLCameraTests" */;
+			buildPhases = (
+				BCF6C7D625C02FE1008AA01F /* Sources */,
+				BCF6C7D725C02FE1008AA01F /* Frameworks */,
+				BCF6C7D825C02FE1008AA01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF6C7DC25C02FE1008AA01F /* PBXTargetDependency */,
+			);
+			name = WHLCameraTests;
+			productName = WHLCameraTests;
+			productReference = BCF6C7DA25C02FE1008AA01F /* WHLCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF6C7E425C02FE1008AA01F /* WHLCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF6C7F425C02FE1008AA01F /* Build configuration list for PBXNativeTarget "WHLCameraUITests" */;
+			buildPhases = (
+				BCF6C7E125C02FE1008AA01F /* Sources */,
+				BCF6C7E225C02FE1008AA01F /* Frameworks */,
+				BCF6C7E325C02FE1008AA01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF6C7E725C02FE1008AA01F /* PBXTargetDependency */,
+			);
+			name = WHLCameraUITests;
+			productName = WHLCameraUITests;
+			productReference = BCF6C7E525C02FE1008AA01F /* WHLCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF6C7B725C02FD5008AA01F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BCF6C7BE25C02FD5008AA01F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					BCF6C7D925C02FE1008AA01F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BCF6C7BE25C02FD5008AA01F;
+					};
+					BCF6C7E425C02FE1008AA01F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BCF6C7BE25C02FD5008AA01F;
+					};
+				};
+			};
+			buildConfigurationList = BCF6C7BA25C02FD5008AA01F /* Build configuration list for PBXProject "WHLCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF6C7B625C02FD5008AA01F;
+			productRefGroup = BCF6C7C025C02FD5008AA01F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF6C7BE25C02FD5008AA01F /* WHLCamera */,
+				BCF6C7D925C02FE1008AA01F /* WHLCameraTests */,
+				BCF6C7E425C02FE1008AA01F /* WHLCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF6C7BD25C02FD5008AA01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF6C7D225C02FE0008AA01F /* LaunchScreen.storyboard in Resources */,
+				BCF6C7CF25C02FE0008AA01F /* Assets.xcassets in Resources */,
+				BCF6C7CD25C02FD5008AA01F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF6C7D825C02FE1008AA01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF6C7E325C02FE1008AA01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		648AE4ADD565C0E5B12BDD9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHLCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF6C7BB25C02FD5008AA01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF6C7FD25C03196008AA01F /* CameraController.m in Sources */,
+				BCF6C81225C039A3008AA01F /* PreviewView.m in Sources */,
+				BCF6C7CA25C02FD5008AA01F /* ViewController.m in Sources */,
+				BCF6C7C425C02FD5008AA01F /* AppDelegate.m in Sources */,
+				BCC383D525C0602B00229245 /* StatusView.m in Sources */,
+				BCF6C7D525C02FE0008AA01F /* main.m in Sources */,
+				BCC3840C25C150E000229245 /* CaptureButton.m in Sources */,
+				BCF6C83025C03B1B008AA01F /* FlashControl.m in Sources */,
+				BCF6C82A25C03AFE008AA01F /* CameraModeView.m in Sources */,
+				BCF6C81E25C039DB008AA01F /* OverLayerView.m in Sources */,
+				BCC3843325CAFD9100229245 /* NSFileManager+Additions.m in Sources */,
+				BCF6C7C725C02FD5008AA01F /* SceneDelegate.m in Sources */,
+				BCF6C82425C03AE9008AA01F /* CameraView.m in Sources */,
+				BCC3842825C2811900229245 /* UIView+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF6C7D625C02FE1008AA01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF6C7DF25C02FE1008AA01F /* WHLCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF6C7E125C02FE1008AA01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF6C7EA25C02FE1008AA01F /* WHLCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF6C7DC25C02FE1008AA01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF6C7BE25C02FD5008AA01F /* WHLCamera */;
+			targetProxy = BCF6C7DB25C02FE1008AA01F /* PBXContainerItemProxy */;
+		};
+		BCF6C7E725C02FE1008AA01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF6C7BE25C02FD5008AA01F /* WHLCamera */;
+			targetProxy = BCF6C7E625C02FE1008AA01F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF6C7CB25C02FD5008AA01F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF6C7CC25C02FD5008AA01F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF6C7D025C02FE0008AA01F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF6C7D125C02FE0008AA01F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF6C7EC25C02FE1008AA01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCF6C7ED25C02FE1008AA01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF6C7EF25C02FE1008AA01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48397BBAF7A248FAEF8B4A83 /* Pods-WHLCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5CQR3946V;
+				GCC_PREFIX_HEADER = /Users/wanghailong/GitHubProject/MyCamera/WHLCamera/WHLCamera/PrefixHeader.pch;
+				INFOPLIST_FILE = WHLCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whl.ios.WHLCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF6C7F025C02FE1008AA01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575B8559CB20AC686239F6F2 /* Pods-WHLCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5CQR3946V;
+				GCC_PREFIX_HEADER = /Users/wanghailong/GitHubProject/MyCamera/WHLCamera/WHLCamera/PrefixHeader.pch;
+				INFOPLIST_FILE = WHLCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whl.ios.WHLCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCF6C7F225C02FE1008AA01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5CQR3946V;
+				INFOPLIST_FILE = WHLCameraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whl.ios.WHLCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHLCamera.app/WHLCamera";
+			};
+			name = Debug;
+		};
+		BCF6C7F325C02FE1008AA01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5CQR3946V;
+				INFOPLIST_FILE = WHLCameraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whl.ios.WHLCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHLCamera.app/WHLCamera";
+			};
+			name = Release;
+		};
+		BCF6C7F525C02FE1008AA01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5CQR3946V;
+				INFOPLIST_FILE = WHLCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whl.ios.WHLCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHLCamera;
+			};
+			name = Debug;
+		};
+		BCF6C7F625C02FE1008AA01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5CQR3946V;
+				INFOPLIST_FILE = WHLCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whl.ios.WHLCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHLCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF6C7BA25C02FD5008AA01F /* Build configuration list for PBXProject "WHLCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF6C7EC25C02FE1008AA01F /* Debug */,
+				BCF6C7ED25C02FE1008AA01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF6C7EE25C02FE1008AA01F /* Build configuration list for PBXNativeTarget "WHLCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF6C7EF25C02FE1008AA01F /* Debug */,
+				BCF6C7F025C02FE1008AA01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF6C7F125C02FE1008AA01F /* Build configuration list for PBXNativeTarget "WHLCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF6C7F225C02FE1008AA01F /* Debug */,
+				BCF6C7F325C02FE1008AA01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF6C7F425C02FE1008AA01F /* Build configuration list for PBXNativeTarget "WHLCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF6C7F525C02FE1008AA01F /* Debug */,
+				BCF6C7F625C02FE1008AA01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF6C7B725C02FD5008AA01F /* Project object */;
+}
